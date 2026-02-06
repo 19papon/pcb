@@ -31,7 +31,7 @@ noBtn.addEventListener('touchstart', (e) => {
 
 yesBtn.addEventListener('click', () => {
     emoji.innerText = '🥰';
-    question.innerHTML = "love you kanmani! 😘";
+    question.innerHTML = "love you kanmani!";
     document.getElementById('btnGroup').style.display = 'none';
 
     confetti({
@@ -61,4 +61,5 @@ function createHeart() {
 const style = document.createElement('style');
 style.innerHTML = `@keyframes fall { to { transform: translateY(110vh) rotate(360deg); opacity: 0; } }`;
 document.head.appendChild(style);
+
 setInterval(createHeart, 400);
