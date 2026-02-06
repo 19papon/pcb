@@ -42,7 +42,7 @@ yesBtn.addEventListener('click', () => {
 
     setTimeout(() => {
         window.open(youtubeURL, "_blank");
-    }, 1500);
+    }, 3000);
 });
 
 function createHeart() {
@@ -63,3 +63,4 @@ style.innerHTML = `@keyframes fall { to { transform: translateY(110vh) rotate(36
 document.head.appendChild(style);
 
 setInterval(createHeart, 400);
+
